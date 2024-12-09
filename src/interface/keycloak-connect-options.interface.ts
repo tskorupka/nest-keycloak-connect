@@ -141,6 +141,10 @@ export interface KeycloakConnectConfig extends NestKeycloakConfig {
    * Authentication server URL.
    */
   authServerUrl?: string;
+  /**
+   * ISS.
+   */
+  iss?: string;
 
   /**
    * How many minutes before retrying getting the keys.
